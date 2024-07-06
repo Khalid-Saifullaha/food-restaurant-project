@@ -20,6 +20,7 @@ text-align: center;
 
 background: rgb(82, 195, 3);
 border: none;
+cursor: pointer;
 }
 #hero{
     height: 615px;
@@ -96,11 +97,11 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.6;
 }
-
-.card .card-container {
+.card-container {
     margin-top: 30px;
-      /* display: flex;
-      justify-content: space-between; */
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
   }
 
 .card {
